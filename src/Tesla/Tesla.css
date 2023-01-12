@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 1.5rem;
+    position: fixed;
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 20px; */
+}
+header nav ul li{
+    padding: 0 1rem;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.images{
+    /* background-image: url('../../public/tesla images/model-3.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.heading{
+    padding-top: 7rem;
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 40px;
+}
+
+.heading p{
+    font-size: 20px;
+}
+/* .down{
+    padding-top: 25rem;
+    text-align: center;
+} */
+/* .down a{
+    text-decoration: none;
+}
+
+.down a:nth-of-type(1){
+    padding: 1rem 5rem;
+    color: black;
+    border-radius: 20px;
+    background-color: rgba(0,0, 0,0.6);
+}
+
+.down a:nth-of-type(2){
+    padding: 1rem 5rem;
+    color: black;
+    border-radius: 20px;
+    background-color: rgba(255,255, 255,0.6);
+} */
+
+.act{
+ padding-bottom: 0.1rem;
+
+}
+.act a{
+    margin-left: 2rem;
+    text-decoration: none;
+} 
+.act a:nth-of-type(1){
+    padding: 1rem 5rem;
+    color: black;
+    border-radius: 20px;
+    background-color: rgba(0,0, 0,0.6);
+   
+}
+.act a:nth-of-type(2){
+    padding: 1rem 5rem;
+    color: black;
+    border-radius: 20px;
+    background-color: rgba(255,255, 255,0.6);
+}
+
+.back{
+    list-style: none;
+    position:fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100vh;
+    background-color: white;
+    padding: 3rem 2rem ;
+    line-height: 3rem;
+
+}
+
+.back a{
+    padding: 1rem ;
+    text-decoration: none;
+    color: black;
+}
+
+.arrow img{
+    width: 70px;
+    height: 50px;    
+
+}
+.arrow{
+    text-align: center;
+    padding-top: 30px;
+}
+.ico{
+    position: absolute;
+    font-size: 3rem;
+    right: 20px;
+    cursor: pointer;
+    top: 20px;
+}
+
+.act a:hover:nth-of-type(1){
+    background-color: #2098D1;
+}
+
+.act a:hover:nth-of-type(2){
+    background-color: #FF1493;
+}
