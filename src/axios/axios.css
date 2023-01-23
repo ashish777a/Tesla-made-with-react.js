@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.iphone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.wrap{
+    width: 30vw;
+    margin: 0.5rem 1rem;
+    border: 1px solid wheat;
+
+}
+.wrap img{
+    height: 300px;
+    width: 300px;
+}

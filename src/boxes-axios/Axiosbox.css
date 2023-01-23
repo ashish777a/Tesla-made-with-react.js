@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.out{
+    width: 30vw;
+    margin: 0.5rem 1rem;
+    /* border: 1px solid wheat; */
+
+}
+.out img{
+    height: 300px;
+    width: 300px;
+}
+.out img:hover{
+    color: aquamarine;
+}
