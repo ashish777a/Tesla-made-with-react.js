@@ -7,7 +7,7 @@ function Section(props) {
                     <h1>{props.heading}</h1>
                     <p>{props.text}</p>
                 </section>
-                <section className='act'>
+                <section className='act'>                                                                                                                                                                                              
                     <a href=''>{props.leftbtn}</a>
                     {props.rightbtn &&<a href=''>{props.rightbtn}</a>}
 

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    height: 100vh;
+    background-color: aqua;
+
+}
+.page1 button{
+    /* margin: 1rem; */
+}
+.page2{
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    margin-top: 5rem;
+}
+.img{
+    margin-top: 5rem;
+    display: flex;
+
+}
+.img h2{
+    margin: 1rem;
+}
+.img img{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    margin: 1rem;
+    /* transition: all 0.4s ease-in; */
+    /* background-color: white; */
+}
+.img img:hover{
+    background-color: white;
+}
