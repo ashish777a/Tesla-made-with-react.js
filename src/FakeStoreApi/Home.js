@@ -1,7 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import AppFake from '../Books/AppFake'
-
+import './Fake.css'
 
 function FakeStore() {
     const [Store, setStore] = useState([])
