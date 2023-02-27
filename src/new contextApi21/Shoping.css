@@ -12,7 +12,7 @@
 }
 .box{
     width: 30vw;
-    margin: 3.5rem 3rem;
+    margin: 3.5rem 1rem;
     
 
 }
@@ -39,21 +39,24 @@
     align-items: center;
     text-align: center;
     padding: 20px;
-    background-color: darkcyan;
+    background-color: #229d9d;
 }
 
 .home ul li{
     text-decoration: none;
     list-style: none;
-    padding: 10px;
+    padding: 15px;
     /* border: 1px solid cornflowerblue; */
-    background-color:cornflowerblue ;
+    background-color:violet;
     color: black;
     transition: all 0.5s ease-in;
+    border-radius: 20px;
 }
 
+.home ul li
+
 .home ul li:hover{
-    background-color: green;
+    background-color:aquamarine;
     color: white;
 }
 
