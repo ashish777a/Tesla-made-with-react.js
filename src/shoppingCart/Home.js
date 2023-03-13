@@ -19,8 +19,9 @@ function Home() {
 
   useEffect(() => {
     function getRandomData() {
-      axios.get("https://fakestoreapi.com/products").then((response) => {
-        // console.log(response.data);
+      axios.get("https://fakestoreapi.com/products")
+      .then((response) => {
+        console.log(response.data);
         setProducts(response.data);
       });
     }

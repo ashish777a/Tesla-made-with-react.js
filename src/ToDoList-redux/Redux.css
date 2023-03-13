@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color:aquamarine;
+}
+.input input{
+    padding: 1.5rem;
+    border: 2px solid;
+    background-color:violet;
+    color: #000;
+    cursor: pointer;
+}
+.input button{
+    padding: 1.5rem;
+    border: 2px solid;
+    background-color: cadetblue;
+    color: black;
+    cursor: pointer;
+}
